@@ -1,0 +1,14 @@
+Neighborhood Prosperity Index Documentation
+===========================================
+
+Living documentation for the Neighborhood Prosperity Index project. 
+It is a work in progress but you can find information about the dataset below.
+
+Contents
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   measures
+   datasources

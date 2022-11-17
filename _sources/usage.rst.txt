@@ -1,0 +1,395 @@
+Measures
+=============
+
+Below are the measures we are using in the Prosperity Index
+
+GEO_ID
+------
+11 digit FIPS code to represent the current tract.
+
+.. list-table::
+   :widths: 25 25
+   :header-rows: 1
+
+   * - Data Source
+     - Data Type
+   * - All
+     - Int64
+
+
+Median Household Income (Real) Dollars
+--------------------------------------
+**[U.S. demographics]** The sum of the income of all people 15 years and older living in the 
+household. See Income for related terms.
+
+.. list-table::
+   :widths: 25 25
+   :header-rows: 1
+
+   * - Data Source
+     - Data Type
+   * - Source
+     - Int64
+
+Median Male Earnings, Dollars
+-----------------------------
+*WIP*
+
+Median Male Earnings, Dollars
+-----------------------------
+*WIP*
+
+Total Population
+----------------
+*WIP*
+
+Race: White
+-----------
+**[U.S. demographics]** Defined by self-identification, race detail from Census 2000 was expanded 
+to include a multiracial component. For the first time, each individual could report up to six race 
+categories, resulting in 63 possible race combinations. The six basic race categories are White, 
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other 
+Pacific Islander, and some other race for persons who do not identify with one of the specified 
+groups.
+
+Race: Black or African American
+-------------------------------
+**[U.S. demographics]** Defined by self-identification, race detail from Census 2000 was expanded 
+to include a multiracial component. For the first time, each individual could report up to six race 
+categories, resulting in 63 possible race combinations. The six basic race categories are White, 
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other 
+Pacific Islander, and some other race for persons who do not identify with one of the specified 
+groups.
+
+Race: Asian
+-----------
+**[U.S. demographics]** Defined by self-identification, race detail from Census 2000 was expanded 
+to include a multiracial component. For the first time, each individual could report up to six race 
+categories, resulting in 63 possible race combinations. The six basic race categories are White, 
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other 
+Pacific Islander, and some other race for persons who do not identify with one of the specified 
+groups.
+
+Race: Hispanic or Latino
+------------------------
+**[U.S. demographics]** Defined by self-identification, race detail from Census 2000 was expanded 
+to include a multiracial component. For the first time, each individual could report up to six race 
+categories, resulting in 63 possible race combinations. The six basic race categories are White, 
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other 
+Pacific Islander, and some other race for persons who do not identify with one of the specified 
+groups.
+
+Race: Other
+-----------
+**[U.S. demographics]** Defined by self-identification, race detail from Census 2000 was expanded 
+to include a multiracial component. For the first time, each individual could report up to six race 
+categories, resulting in 63 possible race combinations. The six basic race categories are White, 
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other 
+Pacific Islander, and some other race for persons who do not identify with one of the specified 
+groups.
+
+Population Living Above Poverty Line
+------------------------------------
+**[U.S. demographics]** Households below poverty are those households that fall below a poverty line 
+that is established by the Census Bureau each year. The line differs depending on the size of the 
+household—it is lower for smaller sized households and higher for larger sized households. For 
+example, in 2020, the poverty line for a family of three was approximately $20,591.
+
+Children above poverty line
+---------------------------
+*WIP*
+Same as the above one?
+
+Population Living Below Poverty Line(18-64)
+-------------------------------------------
+**[U.S. demographics]** Households below poverty are those households that fall below a poverty line 
+that is established by the Census Bureau each year. The line differs depending on the size of the 
+household—it is lower for smaller sized households and higher for larger sized households. For 
+example, in 2020, the poverty line for a family of three was approximately $20,591.
+
+Percent of population employed
+------------------------------
+*WIP*
+
+Unemployment Rate
+-----------------
+**[U.S. demographics]** The unemployment rate provides a direct measure of joblessness in an area. 
+The rate represents the total number of unemployed persons as a percentage of the civilian labor force. 
+The rate is calculated using unemployed persons aged 16 years and older divided by employed plus unemployed 
+population.
+
+State government workers
+------------------------
+*WIP*
+
+Local government workers
+------------------------
+*WIP*
+
+Federal government workers
+--------------------------
+*WIP*
+
+Percent of Owner Occupied Households
+------------------------------------
+**[U.S demographics]** Families are households in which one or more persons in the household are related 
+to the householder (formerly, the head of the household) by birth, marriage, or adoption. The census tabulates 
+only one family per household.
+
+Percent of Renter Occupied Households
+-------------------------------------
+**[U.S. demographics]** All occupied housing units that are not owner occupied, whether they are rented or occupied 
+without payment of rent, are classified as renter-occupied units.
+
+People with health insurance
+----------------------------
+*WIP*
+
+Median Home Value
+-----------------
+**[U.S. demographics]** This estimate divides the distribution of home value into two equal parts. Linear interpolation 
+is used if the median home value is below $1,000,000. If the median is in the upper home value interval of $1,000,000 
+or more, it is represented by $1,000,001. See Home value for related terms.
+
+Households With Computer at Home (Desktop or Laptop)
+----------------------------------------------------
+*WIP*
+
+Households With Internet Access
+-------------------------------
+*WIP*
+
+Adult Users With Broadband Access
+---------------------------------
+*WIP*
+
+Under 18 with internet access at home
+-------------------------------------
+*WIP*
+
+Means of Transportation to Work: Drive Alone
+--------------------------------------------
+*WIP*
+
+Means of Transportation to Work: Public Transportation
+------------------------------------------------------
+*WIP*
+
+Car ownership by household
+--------------------------
+*WIP*
+
+Median Gross Rent
+-----------------
+**[U.S. demographics]** Gross rent is the amount of contract rent plus the estimated average monthly 
+cost of utilities (electricity, gas, and water and sewer) and fuels (oil, coal, kerosene, wood, and so on) 
+paid for by the renter (or paid for the renter by someone else). Gross rent is intended to eliminate 
+differentials which result from varying practices with respect to the inclusion of utilities and fuels 
+as part of the rental payment. See Contract rent for related terms.
+
+Employment (Male)
+-----------------
+*WIP*
+
+Employment (Female)
+-------------------
+*WIP*
+
+Employment (Ages 16-19)
+-----------------------
+*WIP*
+
+In Workforce (16-19)
+--------------------
+*WIP*
+
+In Workforce (16 and older)
+---------------------------
+*WIP*
+
+Median monthly housing costs
+----------------------------
+*WIP*
+
+People over 25 - High school graduation
+---------------------------------------
+*WIP*
+
+People over 25 - Some college, no degree
+----------------------------------------
+*WIP*
+
+People over 25 - Associates degree
+----------------------------------
+*WIP*
+
+People over 25 - Bachelors degree or higher
+-------------------------------------------
+*WIP*
+
+People over 25 - No high school graduation
+------------------------------------------
+*WIP*
+
+School Enrollment: All Ages
+---------------------------
+*WIP*
+
+Preprimary School Enrollment %
+------------------------------
+*WIP*
+
+Ages 3-4 enrolled in school %
+-----------------------------
+*WIP*
+
+Ages 5-9 enrolled in school %
+-----------------------------
+*WIP*
+
+Ages 10-14 enrolled in school %
+-------------------------------
+*WIP*
+
+Ages 15-17 enrolled in school %
+-------------------------------
+*WIP*
+
+Ages 18-19 enrolled in school %
+-------------------------------
+*WIP*
+
+Ages 20-24 enrolled in school %
+-------------------------------
+*WIP*
+
+Ages 25-34 enrolled in school %
+-------------------------------
+*WIP*
+
+Ages 35 and over enrolled in school %
+-------------------------------------
+*WIP*
+
+Bachelor's degree or higher: Science and Engineering
+----------------------------------------------------
+*WIP*
+
+Bachelor's degree or higher: Business
+-------------------------------------
+*WIP*
+
+Bachelor's degree or higher: Education
+--------------------------------------
+*WIP*
+
+Bachelor's degree or higher: Arts, Humanities and Others
+--------------------------------------------------------
+*WIP*
+
+PLACES DATA
+
+All teeth not lost among adults aged >=65 years
+-----------------------------------------------
+*WIP*
+
+No arthritis among adults aged >=18 years
+-----------------------------------------
+*WIP*
+
+No binge drinking among adults aged >=18 years
+----------------------------------------------
+*WIP*
+
+No cancer (excluding skin cancer) among adults aged >=18 years
+--------------------------------------------------------------
+*WIP*
+
+Cervical cancer screening among adult women aged 21-65 years
+------------------------------------------------------------
+*WIP*
+
+Cholesterol screening among adults aged >=18 years
+--------------------------------------------------
+*WIP*
+
+No chronic kidney disease among adults aged >=18 years
+------------------------------------------------------
+*WIP*
+
+No chronic obstructive pulmonary disease among adults aged >=18 years
+---------------------------------------------------------------------
+*WIP*
+
+No coronary heart disease among adults aged >=18 years
+------------------------------------------------------
+*WIP*
+
+No asthma among adults aged >=18 years
+--------------------------------------
+
+People with health insurance among adults aged 18-64 years
+----------------------------------------------------------
+
+No smoking among adults aged >=18 years
+---------------------------------------
+
+No depression among adults aged >=18 years
+------------------------------------------
+
+No diagnosed diabetes among adults aged >=18 years
+--------------------------------------------------
+
+Good self-rated health status among adults aged >=18 years
+----------------------------------------------------------
+
+Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years
+------------------------------------------------------------------------------------
+
+No high blood pressure among adults aged >=18 years
+---------------------------------------------------
+
+No high cholesterol among adults aged >=18 years who have been screened in the past 5 years
+-------------------------------------------------------------------------------------------
+
+Mammography use among women aged 50-74 years
+--------------------------------------------
+
+Mental health good for >=14 days among adults aged >=18 years
+-------------------------------------------------------------
+
+Leisure-time physical activity among adults aged >=18 years
+-----------------------------------------------------------
+
+No obesity among adults aged >=18 years
+---------------------------------------
+
+Older adult men aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Older adult women aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Physical health good for >=14 days among adults aged >=18 years
+---------------------------------------------------------------
+
+Sleeping more than 7 hours among adults aged >=18 years
+-------------------------------------------------------
+
+No stroke among adults aged >=18 years
+--------------------------------------
+
+Not taking medicine for high blood pressure control among adults aged >=18 years with high blood pressure
+---------------------------------------------------------------------------------------------------------
+
+Visits to dentist or dental clinic among adults aged >=18 years
+---------------------------------------------------------------
+
+Visits to doctor for routine checkup within the past year among adults aged >=18 years
+--------------------------------------------------------------------------------------
+
+Area
+----
+
+year
+----

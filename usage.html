@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Measures &mdash; Prosperity Data 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Prosperity Data
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="measures.html">Measure Names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">Other</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Prosperity Data</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Measures</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="measures">
+<h1>Measures<a class="headerlink" href="#measures" title="Permalink to this heading"></a></h1>
+<p>Below are the measures we are using in the Prosperity Index</p>
+<section id="geo-id">
+<h2>GEO_ID<a class="headerlink" href="#geo-id" title="Permalink to this heading"></a></h2>
+<p>11 digit FIPS code to represent the current tract.</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Data Source</p></th>
+<th class="head"><p>Data Type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>All</p></td>
+<td><p>Int64</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="median-household-income-real-dollars">
+<h2>Median Household Income (Real) Dollars<a class="headerlink" href="#median-household-income-real-dollars" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> The sum of the income of all people 15 years and older living in the
+household. See Income for related terms.</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Data Source</p></th>
+<th class="head"><p>Data Type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Source</p></td>
+<td><p>Int64</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="median-male-earnings-dollars">
+<h2>Median Male Earnings, Dollars<a class="headerlink" href="#median-male-earnings-dollars" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="id1">
+<h2>Median Male Earnings, Dollars<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="total-population">
+<h2>Total Population<a class="headerlink" href="#total-population" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="race-white">
+<h2>Race: White<a class="headerlink" href="#race-white" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Defined by self-identification, race detail from Census 2000 was expanded
+to include a multiracial component. For the first time, each individual could report up to six race
+categories, resulting in 63 possible race combinations. The six basic race categories are White,
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other
+Pacific Islander, and some other race for persons who do not identify with one of the specified
+groups.</p>
+</section>
+<section id="race-black-or-african-american">
+<h2>Race: Black or African American<a class="headerlink" href="#race-black-or-african-american" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Defined by self-identification, race detail from Census 2000 was expanded
+to include a multiracial component. For the first time, each individual could report up to six race
+categories, resulting in 63 possible race combinations. The six basic race categories are White,
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other
+Pacific Islander, and some other race for persons who do not identify with one of the specified
+groups.</p>
+</section>
+<section id="race-asian">
+<h2>Race: Asian<a class="headerlink" href="#race-asian" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Defined by self-identification, race detail from Census 2000 was expanded
+to include a multiracial component. For the first time, each individual could report up to six race
+categories, resulting in 63 possible race combinations. The six basic race categories are White,
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other
+Pacific Islander, and some other race for persons who do not identify with one of the specified
+groups.</p>
+</section>
+<section id="race-hispanic-or-latino">
+<h2>Race: Hispanic or Latino<a class="headerlink" href="#race-hispanic-or-latino" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Defined by self-identification, race detail from Census 2000 was expanded
+to include a multiracial component. For the first time, each individual could report up to six race
+categories, resulting in 63 possible race combinations. The six basic race categories are White,
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other
+Pacific Islander, and some other race for persons who do not identify with one of the specified
+groups.</p>
+</section>
+<section id="race-other">
+<h2>Race: Other<a class="headerlink" href="#race-other" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Defined by self-identification, race detail from Census 2000 was expanded
+to include a multiracial component. For the first time, each individual could report up to six race
+categories, resulting in 63 possible race combinations. The six basic race categories are White,
+Black or African American, American Indian or Alaskan Native, Asian, Native Hawaiian or Other
+Pacific Islander, and some other race for persons who do not identify with one of the specified
+groups.</p>
+</section>
+<section id="population-living-above-poverty-line">
+<h2>Population Living Above Poverty Line<a class="headerlink" href="#population-living-above-poverty-line" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Households below poverty are those households that fall below a poverty line
+that is established by the Census Bureau each year. The line differs depending on the size of the
+household—it is lower for smaller sized households and higher for larger sized households. For
+example, in 2020, the poverty line for a family of three was approximately $20,591.</p>
+</section>
+<section id="children-above-poverty-line">
+<h2>Children above poverty line<a class="headerlink" href="#children-above-poverty-line" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em>
+Same as the above one?</p>
+</section>
+<section id="population-living-below-poverty-line-18-64">
+<h2>Population Living Below Poverty Line(18-64)<a class="headerlink" href="#population-living-below-poverty-line-18-64" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Households below poverty are those households that fall below a poverty line
+that is established by the Census Bureau each year. The line differs depending on the size of the
+household—it is lower for smaller sized households and higher for larger sized households. For
+example, in 2020, the poverty line for a family of three was approximately $20,591.</p>
+</section>
+<section id="percent-of-population-employed">
+<h2>Percent of population employed<a class="headerlink" href="#percent-of-population-employed" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="unemployment-rate">
+<h2>Unemployment Rate<a class="headerlink" href="#unemployment-rate" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> The unemployment rate provides a direct measure of joblessness in an area.
+The rate represents the total number of unemployed persons as a percentage of the civilian labor force.
+The rate is calculated using unemployed persons aged 16 years and older divided by employed plus unemployed
+population.</p>
+</section>
+<section id="state-government-workers">
+<h2>State government workers<a class="headerlink" href="#state-government-workers" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="local-government-workers">
+<h2>Local government workers<a class="headerlink" href="#local-government-workers" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="federal-government-workers">
+<h2>Federal government workers<a class="headerlink" href="#federal-government-workers" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="percent-of-owner-occupied-households">
+<h2>Percent of Owner Occupied Households<a class="headerlink" href="#percent-of-owner-occupied-households" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S demographics]</strong> Families are households in which one or more persons in the household are related
+to the householder (formerly, the head of the household) by birth, marriage, or adoption. The census tabulates
+only one family per household.</p>
+</section>
+<section id="percent-of-renter-occupied-households">
+<h2>Percent of Renter Occupied Households<a class="headerlink" href="#percent-of-renter-occupied-households" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> All occupied housing units that are not owner occupied, whether they are rented or occupied
+without payment of rent, are classified as renter-occupied units.</p>
+</section>
+<section id="people-with-health-insurance">
+<h2>People with health insurance<a class="headerlink" href="#people-with-health-insurance" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="median-home-value">
+<h2>Median Home Value<a class="headerlink" href="#median-home-value" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> This estimate divides the distribution of home value into two equal parts. Linear interpolation
+is used if the median home value is below $1,000,000. If the median is in the upper home value interval of $1,000,000
+or more, it is represented by $1,000,001. See Home value for related terms.</p>
+</section>
+<section id="households-with-computer-at-home-desktop-or-laptop">
+<h2>Households With Computer at Home (Desktop or Laptop)<a class="headerlink" href="#households-with-computer-at-home-desktop-or-laptop" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="households-with-internet-access">
+<h2>Households With Internet Access<a class="headerlink" href="#households-with-internet-access" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="adult-users-with-broadband-access">
+<h2>Adult Users With Broadband Access<a class="headerlink" href="#adult-users-with-broadband-access" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="under-18-with-internet-access-at-home">
+<h2>Under 18 with internet access at home<a class="headerlink" href="#under-18-with-internet-access-at-home" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="means-of-transportation-to-work-drive-alone">
+<h2>Means of Transportation to Work: Drive Alone<a class="headerlink" href="#means-of-transportation-to-work-drive-alone" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="means-of-transportation-to-work-public-transportation">
+<h2>Means of Transportation to Work: Public Transportation<a class="headerlink" href="#means-of-transportation-to-work-public-transportation" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="car-ownership-by-household">
+<h2>Car ownership by household<a class="headerlink" href="#car-ownership-by-household" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="median-gross-rent">
+<h2>Median Gross Rent<a class="headerlink" href="#median-gross-rent" title="Permalink to this heading"></a></h2>
+<p><strong>[U.S. demographics]</strong> Gross rent is the amount of contract rent plus the estimated average monthly
+cost of utilities (electricity, gas, and water and sewer) and fuels (oil, coal, kerosene, wood, and so on)
+paid for by the renter (or paid for the renter by someone else). Gross rent is intended to eliminate
+differentials which result from varying practices with respect to the inclusion of utilities and fuels
+as part of the rental payment. See Contract rent for related terms.</p>
+</section>
+<section id="employment-male">
+<h2>Employment (Male)<a class="headerlink" href="#employment-male" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="employment-female">
+<h2>Employment (Female)<a class="headerlink" href="#employment-female" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="employment-ages-16-19">
+<h2>Employment (Ages 16-19)<a class="headerlink" href="#employment-ages-16-19" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="in-workforce-16-19">
+<h2>In Workforce (16-19)<a class="headerlink" href="#in-workforce-16-19" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="in-workforce-16-and-older">
+<h2>In Workforce (16 and older)<a class="headerlink" href="#in-workforce-16-and-older" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="median-monthly-housing-costs">
+<h2>Median monthly housing costs<a class="headerlink" href="#median-monthly-housing-costs" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="people-over-25-high-school-graduation">
+<h2>People over 25 - High school graduation<a class="headerlink" href="#people-over-25-high-school-graduation" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="people-over-25-some-college-no-degree">
+<h2>People over 25 - Some college, no degree<a class="headerlink" href="#people-over-25-some-college-no-degree" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="people-over-25-associates-degree">
+<h2>People over 25 - Associates degree<a class="headerlink" href="#people-over-25-associates-degree" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="people-over-25-bachelors-degree-or-higher">
+<h2>People over 25 - Bachelors degree or higher<a class="headerlink" href="#people-over-25-bachelors-degree-or-higher" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="people-over-25-no-high-school-graduation">
+<h2>People over 25 - No high school graduation<a class="headerlink" href="#people-over-25-no-high-school-graduation" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="school-enrollment-all-ages">
+<h2>School Enrollment: All Ages<a class="headerlink" href="#school-enrollment-all-ages" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="preprimary-school-enrollment">
+<h2>Preprimary School Enrollment %<a class="headerlink" href="#preprimary-school-enrollment" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-3-4-enrolled-in-school">
+<h2>Ages 3-4 enrolled in school %<a class="headerlink" href="#ages-3-4-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-5-9-enrolled-in-school">
+<h2>Ages 5-9 enrolled in school %<a class="headerlink" href="#ages-5-9-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-10-14-enrolled-in-school">
+<h2>Ages 10-14 enrolled in school %<a class="headerlink" href="#ages-10-14-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-15-17-enrolled-in-school">
+<h2>Ages 15-17 enrolled in school %<a class="headerlink" href="#ages-15-17-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-18-19-enrolled-in-school">
+<h2>Ages 18-19 enrolled in school %<a class="headerlink" href="#ages-18-19-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-20-24-enrolled-in-school">
+<h2>Ages 20-24 enrolled in school %<a class="headerlink" href="#ages-20-24-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-25-34-enrolled-in-school">
+<h2>Ages 25-34 enrolled in school %<a class="headerlink" href="#ages-25-34-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="ages-35-and-over-enrolled-in-school">
+<h2>Ages 35 and over enrolled in school %<a class="headerlink" href="#ages-35-and-over-enrolled-in-school" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="bachelor-s-degree-or-higher-science-and-engineering">
+<h2>Bachelor’s degree or higher: Science and Engineering<a class="headerlink" href="#bachelor-s-degree-or-higher-science-and-engineering" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="bachelor-s-degree-or-higher-business">
+<h2>Bachelor’s degree or higher: Business<a class="headerlink" href="#bachelor-s-degree-or-higher-business" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="bachelor-s-degree-or-higher-education">
+<h2>Bachelor’s degree or higher: Education<a class="headerlink" href="#bachelor-s-degree-or-higher-education" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="bachelor-s-degree-or-higher-arts-humanities-and-others">
+<h2>Bachelor’s degree or higher: Arts, Humanities and Others<a class="headerlink" href="#bachelor-s-degree-or-higher-arts-humanities-and-others" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+<p>PLACES DATA</p>
+</section>
+<section id="all-teeth-not-lost-among-adults-aged-65-years">
+<h2>All teeth not lost among adults aged &gt;=65 years<a class="headerlink" href="#all-teeth-not-lost-among-adults-aged-65-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-arthritis-among-adults-aged-18-years">
+<h2>No arthritis among adults aged &gt;=18 years<a class="headerlink" href="#no-arthritis-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-binge-drinking-among-adults-aged-18-years">
+<h2>No binge drinking among adults aged &gt;=18 years<a class="headerlink" href="#no-binge-drinking-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-cancer-excluding-skin-cancer-among-adults-aged-18-years">
+<h2>No cancer (excluding skin cancer) among adults aged &gt;=18 years<a class="headerlink" href="#no-cancer-excluding-skin-cancer-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="cervical-cancer-screening-among-adult-women-aged-21-65-years">
+<h2>Cervical cancer screening among adult women aged 21-65 years<a class="headerlink" href="#cervical-cancer-screening-among-adult-women-aged-21-65-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="cholesterol-screening-among-adults-aged-18-years">
+<h2>Cholesterol screening among adults aged &gt;=18 years<a class="headerlink" href="#cholesterol-screening-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-chronic-kidney-disease-among-adults-aged-18-years">
+<h2>No chronic kidney disease among adults aged &gt;=18 years<a class="headerlink" href="#no-chronic-kidney-disease-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-chronic-obstructive-pulmonary-disease-among-adults-aged-18-years">
+<h2>No chronic obstructive pulmonary disease among adults aged &gt;=18 years<a class="headerlink" href="#no-chronic-obstructive-pulmonary-disease-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-coronary-heart-disease-among-adults-aged-18-years">
+<h2>No coronary heart disease among adults aged &gt;=18 years<a class="headerlink" href="#no-coronary-heart-disease-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+<p><em>WIP</em></p>
+</section>
+<section id="no-asthma-among-adults-aged-18-years">
+<h2>No asthma among adults aged &gt;=18 years<a class="headerlink" href="#no-asthma-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="people-with-health-insurance-among-adults-aged-18-64-years">
+<h2>People with health insurance among adults aged 18-64 years<a class="headerlink" href="#people-with-health-insurance-among-adults-aged-18-64-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-smoking-among-adults-aged-18-years">
+<h2>No smoking among adults aged &gt;=18 years<a class="headerlink" href="#no-smoking-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-depression-among-adults-aged-18-years">
+<h2>No depression among adults aged &gt;=18 years<a class="headerlink" href="#no-depression-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-diagnosed-diabetes-among-adults-aged-18-years">
+<h2>No diagnosed diabetes among adults aged &gt;=18 years<a class="headerlink" href="#no-diagnosed-diabetes-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="good-self-rated-health-status-among-adults-aged-18-years">
+<h2>Good self-rated health status among adults aged &gt;=18 years<a class="headerlink" href="#good-self-rated-health-status-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="fecal-occult-blood-test-sigmoidoscopy-or-colonoscopy-among-adults-aged-50-75-years">
+<h2>Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years<a class="headerlink" href="#fecal-occult-blood-test-sigmoidoscopy-or-colonoscopy-among-adults-aged-50-75-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-high-blood-pressure-among-adults-aged-18-years">
+<h2>No high blood pressure among adults aged &gt;=18 years<a class="headerlink" href="#no-high-blood-pressure-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-high-cholesterol-among-adults-aged-18-years-who-have-been-screened-in-the-past-5-years">
+<h2>No high cholesterol among adults aged &gt;=18 years who have been screened in the past 5 years<a class="headerlink" href="#no-high-cholesterol-among-adults-aged-18-years-who-have-been-screened-in-the-past-5-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="mammography-use-among-women-aged-50-74-years">
+<h2>Mammography use among women aged 50-74 years<a class="headerlink" href="#mammography-use-among-women-aged-50-74-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="mental-health-good-for-14-days-among-adults-aged-18-years">
+<h2>Mental health good for &gt;=14 days among adults aged &gt;=18 years<a class="headerlink" href="#mental-health-good-for-14-days-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="leisure-time-physical-activity-among-adults-aged-18-years">
+<h2>Leisure-time physical activity among adults aged &gt;=18 years<a class="headerlink" href="#leisure-time-physical-activity-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-obesity-among-adults-aged-18-years">
+<h2>No obesity among adults aged &gt;=18 years<a class="headerlink" href="#no-obesity-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="older-adult-men-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening">
+<h2>Older adult men aged &gt;=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening<a class="headerlink" href="#older-adult-men-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening" title="Permalink to this heading"></a></h2>
+</section>
+<section id="older-adult-women-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening-and-mammogram-past-2-years">
+<h2>Older adult women aged &gt;=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years<a class="headerlink" href="#older-adult-women-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening-and-mammogram-past-2-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="physical-health-good-for-14-days-among-adults-aged-18-years">
+<h2>Physical health good for &gt;=14 days among adults aged &gt;=18 years<a class="headerlink" href="#physical-health-good-for-14-days-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="sleeping-more-than-7-hours-among-adults-aged-18-years">
+<h2>Sleeping more than 7 hours among adults aged &gt;=18 years<a class="headerlink" href="#sleeping-more-than-7-hours-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="no-stroke-among-adults-aged-18-years">
+<h2>No stroke among adults aged &gt;=18 years<a class="headerlink" href="#no-stroke-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="not-taking-medicine-for-high-blood-pressure-control-among-adults-aged-18-years-with-high-blood-pressure">
+<h2>Not taking medicine for high blood pressure control among adults aged &gt;=18 years with high blood pressure<a class="headerlink" href="#not-taking-medicine-for-high-blood-pressure-control-among-adults-aged-18-years-with-high-blood-pressure" title="Permalink to this heading"></a></h2>
+</section>
+<section id="visits-to-dentist-or-dental-clinic-among-adults-aged-18-years">
+<h2>Visits to dentist or dental clinic among adults aged &gt;=18 years<a class="headerlink" href="#visits-to-dentist-or-dental-clinic-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="visits-to-doctor-for-routine-checkup-within-the-past-year-among-adults-aged-18-years">
+<h2>Visits to doctor for routine checkup within the past year among adults aged &gt;=18 years<a class="headerlink" href="#visits-to-doctor-for-routine-checkup-within-the-past-year-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
+</section>
+<section id="area">
+<h2>Area<a class="headerlink" href="#area" title="Permalink to this heading"></a></h2>
+</section>
+<section id="year">
+<h2>year<a class="headerlink" href="#year" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Ian Sapp.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
