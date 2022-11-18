@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Measure Names &mdash; Prosperity Data 0.1 documentation</title>
+  <title>Measure Names &mdash; Prosperity Data 0.2 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -44,7 +44,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#geo-id">GEO_ID</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#median-household-income-real-dollars">Median Household Income (Real) Dollars</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#median-male-earnings-dollars">Median Male Earnings, Dollars</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id1">Median Male Earnings, Dollars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#median-female-earnings-dollars">Median Female Earnings, Dollars</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#total-population">Total Population</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#race-white">Race: White</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#race-black-or-african-american">Race: Black or African American</a></li>
@@ -210,10 +210,14 @@ household. See Income for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>The median divides the earnings distribution into two equal parts: onehalf of the cases falling
+below the median and one-half above the median. Median earnings is restricted to individuals 16
+years old and over with earnings and is computed on the basis of a standard distribution. (See the
+“Standard Distributions” section under “Derived Measures.”) Median earnings figures are calculated
+using linear interpolation. (For more information on medians and interpolation, see “Derived Measures.”)</p>
 </section>
-<section id="id1">
-<h2>Median Male Earnings, Dollars<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h2>
+<section id="median-female-earnings-dollars">
+<h2>Median Female Earnings, Dollars<a class="headerlink" href="#median-female-earnings-dollars" title="Permalink to this heading"></a></h2>
 <table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 100%" />
@@ -227,7 +231,10 @@ household. See Income for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>The median divides the earnings distribution into two equal parts: onehalf of the cases falling
+below the median and one-half above the median. Median earnings is restricted to individuals 16
+years old and over with earnings and is computed on the basis of a standard distribution. Median
+earnings figures are calculated using linear interpolation.</p>
 </section>
 <section id="total-population">
 <h2>Total Population<a class="headerlink" href="#total-population" title="Permalink to this heading"></a></h2>
@@ -244,7 +251,7 @@ household. See Income for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Total population calculated by ACS</p>
 </section>
 <section id="race-white">
 <h2>Race: White<a class="headerlink" href="#race-white" title="Permalink to this heading"></a></h2>
@@ -371,10 +378,10 @@ groups.</p>
 </tr>
 </tbody>
 </table>
-<p><strong>[U.S. demographics]</strong> Households below poverty are those households that fall below a poverty line
-that is established by the Census Bureau each year. The line differs depending on the size of the
-household—it is lower for smaller sized households and higher for larger sized households. For
-example, in 2020, the poverty line for a family of three was approximately $20,591.</p>
+<p><strong>[U.S. demographics]</strong> Households above poverty are those households that fall above a poverty line that
+is established by the Census Bureau each year. The line differs depending on the size of the household—it
+is lower for smaller sized households and higher for larger sized households. For example, in 2020, the
+poverty line for a family of three was approximately $20,591.</p>
 </section>
 <section id="children-above-poverty-line">
 <h2>Children above poverty line<a class="headerlink" href="#children-above-poverty-line" title="Permalink to this heading"></a></h2>
@@ -391,8 +398,10 @@ example, in 2020, the poverty line for a family of three was approximately $20,5
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em>
-Same as the above one?</p>
+<p><strong>[U.S. demographics]</strong> Households above poverty are those households that fall above a poverty line that
+is established by the Census Bureau each year. The line differs depending on the size of the household—it
+is lower for smaller sized households and higher for larger sized households. For example, in 2020, the
+poverty line for a family of three was approximately $20,591.</p>
 </section>
 <section id="population-living-below-poverty-line-18-64">
 <h2>Population Living Below Poverty Line(18-64)<a class="headerlink" href="#population-living-below-poverty-line-18-64" title="Permalink to this heading"></a></h2>
@@ -429,7 +438,12 @@ example, in 2020, the poverty line for a family of three was approximately $20,5
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Includes all civilians 16 years old and over who either (1) were “at work,” that is, those who did
+any work at all during the reference week as paid employees, worked in their own business or profession,
+worked on their own farm, or worked 15 hours or more as unpaid workers on a family farm or in a family
+business; or (2) were 68 “with a job but not at work,” that is, those who did not work during the
+reference week but had jobs or businesses from which they were temporarily absent due to illness, bad
+weather, industrial dispute, vacation, or other personal reasons.</p>
 </section>
 <section id="unemployment-rate">
 <h2>Unemployment Rate<a class="headerlink" href="#unemployment-rate" title="Permalink to this heading"></a></h2>
@@ -466,7 +480,7 @@ population.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Government employee who works at the state level.</p>
 </section>
 <section id="local-government-workers">
 <h2>Local government workers<a class="headerlink" href="#local-government-workers" title="Permalink to this heading"></a></h2>
@@ -483,7 +497,7 @@ population.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Government employee who works at the local level.</p>
 </section>
 <section id="federal-government-workers">
 <h2>Federal government workers<a class="headerlink" href="#federal-government-workers" title="Permalink to this heading"></a></h2>
@@ -500,7 +514,7 @@ population.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Government employee who works at the federal level.</p>
 </section>
 <section id="percent-of-owner-occupied-households">
 <h2>Percent of Owner Occupied Households<a class="headerlink" href="#percent-of-owner-occupied-households" title="Permalink to this heading"></a></h2>
@@ -554,7 +568,11 @@ without payment of rent, are classified as renter-occupied units.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Health insurance coverage in the ACS and other Census Bureau surveys define coverage to include plans
+and programs that provide comprehensive health coverage. Plans that provide insurance only for specific
+conditions or situations such as cancer and long-term care policies are not considered comprehensive
+health coverage. Likewise, other types of insurance like dental, vision, life, and disability insurance
+are not considered comprehensive health insurance coverage.</p>
 </section>
 <section id="median-home-value">
 <h2>Median Home Value<a class="headerlink" href="#median-home-value" title="Permalink to this heading"></a></h2>
@@ -590,7 +608,10 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>The computer use question (Question 9) asked if anyone in the household owned or used a computer and included
+four response categories for a desktop or laptop, a smartphone, a tablet or other portable wireless computer,
+and some other type of computer. Respondents selected a checkbox for “Yes” or “No” for each response category.
+Respondents could select all categories that applied.</p>
 </section>
 <section id="households-with-internet-access">
 <h2>Households With Internet Access<a class="headerlink" href="#households-with-internet-access" title="Permalink to this heading"></a></h2>
@@ -607,7 +628,9 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Question 10 asked if any member of the household has access to the internet. “Access” refers to whether or not
+someone in the household uses or can connect to the internet, regardless of whether or not they pay for the
+service.</p>
 </section>
 <section id="adult-users-with-broadband-access">
 <h2>Adult Users With Broadband Access<a class="headerlink" href="#adult-users-with-broadband-access" title="Permalink to this heading"></a></h2>
@@ -624,7 +647,9 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This category includes housing units where someone pays to access the internet through a service such as a data
+plan for a smartphone; a broadband internet service such as cable, fiber optic or DSL; satellite; dial-up; or other
+type of service</p>
 </section>
 <section id="under-18-with-internet-access-at-home">
 <h2>Under 18 with internet access at home<a class="headerlink" href="#under-18-with-internet-access-at-home" title="Permalink to this heading"></a></h2>
@@ -641,7 +666,8 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Question 10 asked if any member of the household has access to the internet. “Access” refers to whether or not
+someone in the household uses or can connect to the internet, regardless of whether or not they pay for the service.</p>
 </section>
 <section id="means-of-transportation-to-work-drive-alone">
 <h2>Means of Transportation to Work: Drive Alone<a class="headerlink" href="#means-of-transportation-to-work-drive-alone" title="Permalink to this heading"></a></h2>
@@ -658,7 +684,8 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Means of transportation to work refers to the principal mode of travel or type of conveyance that the worker usually
+used to get from home to work during the reference week.</p>
 </section>
 <section id="means-of-transportation-to-work-public-transportation">
 <h2>Means of Transportation to Work: Public Transportation<a class="headerlink" href="#means-of-transportation-to-work-public-transportation" title="Permalink to this heading"></a></h2>
@@ -675,7 +702,8 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Means of transportation to work refers to the principal mode of travel or type of conveyance that the worker
+usually used to get from home to work during the reference week.</p>
 </section>
 <section id="car-ownership-by-household">
 <h2>Car ownership by household<a class="headerlink" href="#car-ownership-by-household" title="Permalink to this heading"></a></h2>
@@ -692,7 +720,12 @@ or more, it is represented by $1,000,001. See Home value for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>The question was asked at occupied housing units. These data show the number of passenger cars, vans, and
+pickup or panel trucks of one-ton (2,000 pounds) capacity or less kept at home and available for the use
+of household members. Vehicles rented or leased for one month or more, company vehicles, and police and
+government vehicles are included if kept at home and used for non-business purposes. Motorcycles or other
+recreational vehicles are excluded. Dismantled or immobile vehicles are excluded. Vehicles kept at home
+but used only for business purposes also are excluded.</p>
 </section>
 <section id="median-gross-rent">
 <h2>Median Gross Rent<a class="headerlink" href="#median-gross-rent" title="Permalink to this heading"></a></h2>
@@ -730,7 +763,12 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Includes all civilians 16 years old and over who either (1) were “at work,” that is, those who did any work
+at all during the reference week as paid employees, worked in their own business or profession, worked on
+their own farm, or worked 15 hours or more as unpaid workers on a family farm or in a family business; or
+(2) were 68 “with a job but not at work,” that is, those who did not work during the reference week but had
+jobs or businesses from which they were temporarily absent due to illness, bad weather, industrial dispute,
+vacation, or other personal reasons.</p>
 </section>
 <section id="employment-female">
 <h2>Employment (Female)<a class="headerlink" href="#employment-female" title="Permalink to this heading"></a></h2>
@@ -747,7 +785,12 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Includes all civilians 16 years old and over who either (1) were “at work,” that is, those who did any work
+at all during the reference week as paid employees, worked in their own business or profession, worked on
+their own farm, or worked 15 hours or more as unpaid workers on a family farm or in a family business; or
+(2) were 68 “with a job but not at work,” that is, those who did not work during the reference week but had
+jobs or businesses from which they were temporarily absent due to illness, bad weather, industrial dispute,
+vacation, or other personal reasons.</p>
 </section>
 <section id="employment-ages-16-19">
 <h2>Employment (Ages 16-19)<a class="headerlink" href="#employment-ages-16-19" title="Permalink to this heading"></a></h2>
@@ -764,7 +807,12 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Includes all civilians 16 years old and over who either (1) were “at work,” that is, those who did any work
+at all during the reference week as paid employees, worked in their own business or profession, worked on
+their own farm, or worked 15 hours or more as unpaid workers on a family farm or in a family business; or
+(2) were 68 “with a job but not at work,” that is, those who did not work during the reference week but had
+jobs or businesses from which they were temporarily absent due to illness, bad weather, industrial dispute,
+vacation, or other personal reasons.</p>
 </section>
 <section id="in-workforce-16-19">
 <h2>In Workforce (16-19)<a class="headerlink" href="#in-workforce-16-19" title="Permalink to this heading"></a></h2>
@@ -781,7 +829,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>All people classified in the civilian labor force plus members of the U.S. Armed Forces (people on active
+duty with the United States Army, Air Force, Navy, Marine Corps, or Coast Guard)</p>
 </section>
 <section id="in-workforce-16-and-older">
 <h2>In Workforce (16 and older)<a class="headerlink" href="#in-workforce-16-and-older" title="Permalink to this heading"></a></h2>
@@ -798,7 +847,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>All people classified in the civilian labor force plus members of the U.S. Armed Forces (people on active
+duty with the United States Army, Air Force, Navy, Marine Corps, or Coast Guard)</p>
 </section>
 <section id="median-monthly-housing-costs">
 <h2>Median monthly housing costs<a class="headerlink" href="#median-monthly-housing-costs" title="Permalink to this heading"></a></h2>
@@ -815,7 +865,11 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This measure divides the monthly housing costs distribution into two equal parts: one-half of the cases
+falling below the median monthly housing costs and one-half above the median. Medians are shown separately
+for units “with a mortgage” and for units “not mortgaged.” Median monthly housing costs are computed on the
+basis of a standard distribution. (See the “Median Standard Distributions” section under Appendix A.)
+Median monthly housing costs are rounded to the nearest whole dollar.</p>
 </section>
 <section id="people-over-25-high-school-graduation">
 <h2>People over 25 - High school graduation<a class="headerlink" href="#people-over-25-high-school-graduation" title="Permalink to this heading"></a></h2>
@@ -832,7 +886,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Respondents who received a regular high school diploma and did not attend college were instructed to report
+“Regular high school diploma.”</p>
 </section>
 <section id="people-over-25-some-college-no-degree">
 <h2>People over 25 - Some college, no degree<a class="headerlink" href="#people-over-25-some-college-no-degree" title="Permalink to this heading"></a></h2>
@@ -849,7 +904,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>“Some college” is in two categories: “Some college credit, but less than 1 year of college credit” and
+“1 or more years of college credit, no degree.”</p>
 </section>
 <section id="people-over-25-associates-degree">
 <h2>People over 25 - Associates degree<a class="headerlink" href="#people-over-25-associates-degree" title="Permalink to this heading"></a></h2>
@@ -866,7 +922,10 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>The category “Associate’s degree” included people whose highest degree is an associate’s degree, which
+generally requires 2 years of college level work and is either in an occupational program that prepares
+them for a specific occupation, or an academic program primarily in the arts and sciences. The course work
+may or may not be transferable to a bachelor’s degree.</p>
 </section>
 <section id="people-over-25-bachelors-degree-or-higher">
 <h2>People over 25 - Bachelors degree or higher<a class="headerlink" href="#people-over-25-bachelors-degree-or-higher" title="Permalink to this heading"></a></h2>
@@ -883,7 +942,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This category includes people whose highest degree was a bachelor’s, master’s, or professional or
+66 doctorate degree.</p>
 </section>
 <section id="people-over-25-no-high-school-graduation">
 <h2>People over 25 - No high school graduation<a class="headerlink" href="#people-over-25-no-high-school-graduation" title="Permalink to this heading"></a></h2>
@@ -900,7 +960,10 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This category includes people of compulsory school attendance age or above who were not enrolled in
+school and were not high school graduates. These people may be referred to as “high school dropouts.”
+There is no restriction on when they “dropped out” of school; therefore, they may have dropped out
+before high school and never attended high school.</p>
 </section>
 <section id="school-enrollment-all-ages">
 <h2>School Enrollment: All Ages<a class="headerlink" href="#school-enrollment-all-ages" title="Permalink to this heading"></a></h2>
@@ -917,7 +980,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="preprimary-school-enrollment">
 <h2>Preprimary School Enrollment %<a class="headerlink" href="#preprimary-school-enrollment" title="Permalink to this heading"></a></h2>
@@ -934,7 +998,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-3-4-enrolled-in-school">
 <h2>Ages 3-4 enrolled in school %<a class="headerlink" href="#ages-3-4-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -951,7 +1016,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-5-9-enrolled-in-school">
 <h2>Ages 5-9 enrolled in school %<a class="headerlink" href="#ages-5-9-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -968,7 +1034,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-10-14-enrolled-in-school">
 <h2>Ages 10-14 enrolled in school %<a class="headerlink" href="#ages-10-14-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -985,7 +1052,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-15-17-enrolled-in-school">
 <h2>Ages 15-17 enrolled in school %<a class="headerlink" href="#ages-15-17-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -1002,7 +1070,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-18-19-enrolled-in-school">
 <h2>Ages 18-19 enrolled in school %<a class="headerlink" href="#ages-18-19-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -1019,7 +1088,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-20-24-enrolled-in-school">
 <h2>Ages 20-24 enrolled in school %<a class="headerlink" href="#ages-20-24-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -1036,7 +1106,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-25-34-enrolled-in-school">
 <h2>Ages 25-34 enrolled in school %<a class="headerlink" href="#ages-25-34-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -1053,7 +1124,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="ages-35-and-over-enrolled-in-school">
 <h2>Ages 35 and over enrolled in school %<a class="headerlink" href="#ages-35-and-over-enrolled-in-school" title="Permalink to this heading"></a></h2>
@@ -1070,7 +1142,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>People were classified as enrolled in school if they were attending a public or private school or
+college at any time during the 3 months prior to the time of interview.</p>
 </section>
 <section id="bachelor-s-degree-or-higher-science-and-engineering">
 <h2>Bachelor’s degree or higher: Science and Engineering<a class="headerlink" href="#bachelor-s-degree-or-higher-science-and-engineering" title="Permalink to this heading"></a></h2>
@@ -1087,7 +1160,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This question was asked only to persons with a bachelor’s degree or higher. Eligible respondents
+were asked to list the specific major(s) of any bachelor’s degree received. This question does
+not ask for the field of any other type of degree earned (such as master’s or doctorate).</p>
 </section>
 <section id="bachelor-s-degree-or-higher-business">
 <h2>Bachelor’s degree or higher: Business<a class="headerlink" href="#bachelor-s-degree-or-higher-business" title="Permalink to this heading"></a></h2>
@@ -1104,7 +1179,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This question was asked only to persons with a bachelor’s degree or higher. Eligible respondents
+were asked to list the specific major(s) of any bachelor’s degree received. This question does
+not ask for the field of any other type of degree earned (such as master’s or doctorate).</p>
 </section>
 <section id="bachelor-s-degree-or-higher-education">
 <h2>Bachelor’s degree or higher: Education<a class="headerlink" href="#bachelor-s-degree-or-higher-education" title="Permalink to this heading"></a></h2>
@@ -1121,7 +1198,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>This question was asked only to persons with a bachelor’s degree or higher. Eligible respondents
+were asked to list the specific major(s) of any bachelor’s degree received. This question does not
+ask for the field of any other type of degree earned (such as master’s or doctorate).</p>
 </section>
 <section id="bachelor-s-degree-or-higher-arts-humanities-and-others">
 <h2>Bachelor’s degree or higher: Arts, Humanities and Others<a class="headerlink" href="#bachelor-s-degree-or-higher-arts-humanities-and-others" title="Permalink to this heading"></a></h2>
@@ -1138,8 +1217,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
-<p>PLACES DATA</p>
+<p>This question was asked only to persons with a bachelor’s degree or higher. Eligible respondents
+were asked to list the specific major(s) of any bachelor’s degree received. This question does not
+ask for the field of any other type of degree earned (such as master’s or doctorate).</p>
 </section>
 <section id="all-teeth-not-lost-among-adults-aged-65-years">
 <h2>All teeth not lost among adults aged &gt;=65 years<a class="headerlink" href="#all-teeth-not-lost-among-adults-aged-65-years" title="Permalink to this heading"></a></h2>
@@ -1156,7 +1236,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Behavioral Risk Factor Surveillance System data from 2010 indicated that 16.9% (median) of adults
+aged≥65 years in the United States were edentulous (had no natural teeth) (2). Among persons aged
+65–74 years, 14.2% were edentulous. Among persons aged≥75 years, 19.9% were edentulous (2).</p>
 </section>
 <section id="no-arthritis-among-adults-aged-18-years">
 <h2>No arthritis among adults aged &gt;=18 years<a class="headerlink" href="#no-arthritis-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1173,7 +1255,10 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>An estimated 52.5 million adults have physician-diagnosed arthritis, and 22.7 million report
+arthritis-attributable activity limitations (1). As the population ages, arthritis is expected
+to affect an estimated 67 million adults in the United States by 2030 (2). In 2003, arthritis
+cost an estimated $128 billion in direct medical and indirect costs (3).</p>
 </section>
 <section id="no-binge-drinking-among-adults-aged-18-years">
 <h2>No binge drinking among adults aged &gt;=18 years<a class="headerlink" href="#no-binge-drinking-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1190,7 +1275,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Annual prevalence: crude and age adjusted (standardized by the direct method to the year 2000
+standard U.S. population, distribution 9 [1]) with 95% confidence intervals and by demographic
+characteristics when feasible.</p>
 </section>
 <section id="no-cancer-excluding-skin-cancer-among-adults-aged-18-years">
 <h2>No cancer (excluding skin cancer) among adults aged &gt;=18 years<a class="headerlink" href="#no-cancer-excluding-skin-cancer-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1207,7 +1294,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Respondents aged ≥18 years (excluding those who refused to answer, had a missing answer, or answered
+“don’t know/not sure”)</p>
 </section>
 <section id="cervical-cancer-screening-among-adult-women-aged-21-65-years">
 <h2>Cervical cancer screening among adult women aged 21-65 years<a class="headerlink" href="#cervical-cancer-screening-among-adult-women-aged-21-65-years" title="Permalink to this heading"></a></h2>
@@ -1224,7 +1312,11 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Female respondents aged 21–65 years who do not report having had a hysterectomy and who report having
+had recommended cervical cancer screening test. For female respondents aged 21-29 years, the recommended
+screening test is Pap test alone. For female respondents aged 30-65 years, there are three recommended
+screening tests with varying frequencies: (1) Pap test alone, (2) human papillomavirus (HPV) test
+alone, or (3) Pap test in combination with HPV test (otherwise known as co-test) (1).</p>
 </section>
 <section id="cholesterol-screening-among-adults-aged-18-years">
 <h2>Cholesterol screening among adults aged &gt;=18 years<a class="headerlink" href="#cholesterol-screening-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1241,7 +1333,7 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Respondents aged ≥18 years who report having their cholesterol checked within the previous 5 years.</p>
 </section>
 <section id="no-chronic-kidney-disease-among-adults-aged-18-years">
 <h2>No chronic kidney disease among adults aged &gt;=18 years<a class="headerlink" href="#no-chronic-kidney-disease-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1258,7 +1350,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Respondents aged ≥18 years who report or do not report ever having been told by a doctor, nurse,
+or other health professional that they have kidney disease (excluding those who refused to answer,
+had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-chronic-obstructive-pulmonary-disease-among-adults-aged-18-years">
 <h2>No chronic obstructive pulmonary disease among adults aged &gt;=18 years<a class="headerlink" href="#no-chronic-obstructive-pulmonary-disease-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1275,7 +1369,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Respondents aged ≥18 years who report or do not report ever having been told by a doctor, nurse, or other
+health professional that they had COPD, emphysema, or chronic bronchitis (excluding those who refused to
+answer, had a missing answer, or answered “don’t know/not sure”)</p>
 </section>
 <section id="no-coronary-heart-disease-among-adults-aged-18-years">
 <h2>No coronary heart disease among adults aged &gt;=18 years<a class="headerlink" href="#no-coronary-heart-disease-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1292,7 +1388,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
-<p><em>WIP</em></p>
+<p>Respondents aged ≥18 years who report or do not report ever having been told by a doctor, nurse, or other
+health professional that they had angina or coronary heart disease (excluding those who refused to answer,
+had a missing answer, or answered “don’t know/not sure”)</p>
 </section>
 <section id="no-asthma-among-adults-aged-18-years">
 <h2>No asthma among adults aged &gt;=18 years<a class="headerlink" href="#no-asthma-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1309,6 +1407,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Weighted number of respondents to BRFSS excluding “don’t know” and “refused” responses to the question
+“Have you ever been told you have asthma?”</p>
 </section>
 <section id="people-with-health-insurance-among-adults-aged-18-64-years">
 <h2>People with health insurance among adults aged 18-64 years<a class="headerlink" href="#people-with-health-insurance-among-adults-aged-18-64-years" title="Permalink to this heading"></a></h2>
@@ -1325,6 +1425,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged 18–64 years who report having current health insurance or having no current health
+insurance (excluding those who refused to answer, had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-smoking-among-adults-aged-18-years">
 <h2>No smoking among adults aged &gt;=18 years<a class="headerlink" href="#no-smoking-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1341,6 +1443,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who reported information about cigarette smoking (excluding those who refused
+to answer, had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-depression-among-adults-aged-18-years">
 <h2>No depression among adults aged &gt;=18 years<a class="headerlink" href="#no-depression-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1357,6 +1461,10 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who answered “yes” or “no” to the following question: “Have you ever been
+told by a doctor, nurse, or other health professional that you had a depressive disorder (including
+depression, major depression, dysthymia, or minor depression)?” (excluding those who refused to
+answer, had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-diagnosed-diabetes-among-adults-aged-18-years">
 <h2>No diagnosed diabetes among adults aged &gt;=18 years<a class="headerlink" href="#no-diagnosed-diabetes-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1373,6 +1481,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report or do not report ever been told by a doctor, nurse, or other
+health professional that they have diabetes (excluding those who refused to answer, had a missing
+answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="good-self-rated-health-status-among-adults-aged-18-years">
 <h2>Good self-rated health status among adults aged &gt;=18 years<a class="headerlink" href="#good-self-rated-health-status-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1389,6 +1500,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥ 18 years who report their general health status as “excellent,”
+“very good,” “good,” “fair,” or “poor” (excluding unknowns and refusals).</p>
 </section>
 <section id="fecal-occult-blood-test-sigmoidoscopy-or-colonoscopy-among-adults-aged-50-75-years">
 <h2>Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years<a class="headerlink" href="#fecal-occult-blood-test-sigmoidoscopy-or-colonoscopy-among-adults-aged-50-75-years" title="Permalink to this heading"></a></h2>
@@ -1405,6 +1518,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged 50–75 years who report having had 1) a fecal occult blood test (FOBT)
+within the past year, 2) a sigmoidoscopy within the past 5 years and a FOBT within the
+past 3 years, or 3) a colonoscopy within the past 10 years.</p>
 </section>
 <section id="no-high-blood-pressure-among-adults-aged-18-years">
 <h2>No high blood pressure among adults aged &gt;=18 years<a class="headerlink" href="#no-high-blood-pressure-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1421,6 +1537,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years (excluding those who refused to answer, had a missing answer,
+or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-high-cholesterol-among-adults-aged-18-years-who-have-been-screened-in-the-past-5-years">
 <h2>No high cholesterol among adults aged &gt;=18 years who have been screened in the past 5 years<a class="headerlink" href="#no-high-cholesterol-among-adults-aged-18-years-who-have-been-screened-in-the-past-5-years" title="Permalink to this heading"></a></h2>
@@ -1437,6 +1555,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report having their cholesterol checked within the past 5
+years (excluding those who refused to answer, had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="mammography-use-among-women-aged-50-74-years">
 <h2>Mammography use among women aged 50-74 years<a class="headerlink" href="#mammography-use-among-women-aged-50-74-years" title="Permalink to this heading"></a></h2>
@@ -1453,6 +1573,7 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Female respondents aged 50–74 years who report having had a mammogram within the previous 2 years.</p>
 </section>
 <section id="mental-health-good-for-14-days-among-adults-aged-18-years">
 <h2>Mental health good for &gt;=14 days among adults aged &gt;=18 years<a class="headerlink" href="#mental-health-good-for-14-days-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1469,6 +1590,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report or do not report the number of days during the past 30 days
+during which their mental health was not good (excluding those who refused to answer, had a missing
+answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="leisure-time-physical-activity-among-adults-aged-18-years">
 <h2>Leisure-time physical activity among adults aged &gt;=18 years<a class="headerlink" href="#leisure-time-physical-activity-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1485,6 +1609,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Number of adults aged ≥18 years who reported any or no physical activity in the past month (excluding
+those who refused to answer, had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-obesity-among-adults-aged-18-years">
 <h2>No obesity among adults aged &gt;=18 years<a class="headerlink" href="#no-obesity-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1501,6 +1627,13 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years for whom BMI can be calculated from their self-reported weight and height (excluding unknowns, refusals to provide weight or height and exclusions listed below):</p>
+<ul class="simple">
+<li><p>Height: data from respondents measuring &lt;3 ft or ≥8 ft</p></li>
+<li><p>Weight: data from respondents weighing &lt;50 lbs or ≥650 lbs</p></li>
+<li><p>BMI: data from respondents with BMI &lt;12 kg/m2 ≥100 kg/m2</p></li>
+<li><p>Pregnant women</p></li>
+</ul>
 </section>
 <section id="older-adult-men-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening">
 <h2>Older adult men aged &gt;=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening<a class="headerlink" href="#older-adult-men-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening" title="Permalink to this heading"></a></h2>
@@ -1517,6 +1650,10 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Number of men aged ≥65 years reporting having received all of the following: an influenza vaccination
+in the past year; a PPV ever; and either a fecal occult blood test (FOBT) within the past year, a
+sigmoidoscopy within the past 5 years and a FOBT within the past 3 years, or a colonoscopy within
+the past 10 years.</p>
 </section>
 <section id="older-adult-women-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening-and-mammogram-past-2-years">
 <h2>Older adult women aged &gt;=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years<a class="headerlink" href="#older-adult-women-aged-65-years-who-are-up-to-date-on-a-core-set-of-clinical-preventive-services-flu-shot-past-year-ppv-shot-ever-colorectal-cancer-screening-and-mammogram-past-2-years" title="Permalink to this heading"></a></h2>
@@ -1533,6 +1670,10 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Number of women aged ≥65 years reporting having received all of the following: an influenza vaccination
+in the past year; a pneumococcal vaccination (PPV) ever; either a fecal occult blood test (FOBT) within
+the past year, a sigmoidoscopy within the past 5 years and a FOBT within the past 3 years, or a
+colonoscopy within the previous 10 years; and a mammogram in the past 2 years.</p>
 </section>
 <section id="physical-health-good-for-14-days-among-adults-aged-18-years">
 <h2>Physical health good for &gt;=14 days among adults aged &gt;=18 years<a class="headerlink" href="#physical-health-good-for-14-days-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1549,6 +1690,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report or do not report the number of days during the past 30 days
+during which their physical health was not good (excluding those who refused to answer, had a missing
+answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="sleeping-more-than-7-hours-among-adults-aged-18-years">
 <h2>Sleeping more than 7 hours among adults aged &gt;=18 years<a class="headerlink" href="#sleeping-more-than-7-hours-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1565,6 +1709,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report 0–24 hours of sleep (excluding those who refused to answer,
+had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="no-stroke-among-adults-aged-18-years">
 <h2>No stroke among adults aged &gt;=18 years<a class="headerlink" href="#no-stroke-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1581,6 +1727,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report or do not report ever having been told by a doctor, nurse,
+or other health professional that they have had a stroke (excluding those who refused to answer,
+had a missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="not-taking-medicine-for-high-blood-pressure-control-among-adults-aged-18-years-with-high-blood-pressure">
 <h2>Not taking medicine for high blood pressure control among adults aged &gt;=18 years with high blood pressure<a class="headerlink" href="#not-taking-medicine-for-high-blood-pressure-control-among-adults-aged-18-years-with-high-blood-pressure" title="Permalink to this heading"></a></h2>
@@ -1597,6 +1746,9 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report having been told by a doctor, nurse, or other health professional
+of having high blood pressure other than during pregnancy (excluding those who refused to answer, had a
+missing answer, or answered “don’t know/not sure”).</p>
 </section>
 <section id="visits-to-dentist-or-dental-clinic-among-adults-aged-18-years">
 <h2>Visits to dentist or dental clinic among adults aged &gt;=18 years<a class="headerlink" href="#visits-to-dentist-or-dental-clinic-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1613,6 +1765,7 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report having been to the dentist or dental clinic in the previous year.</p>
 </section>
 <section id="visits-to-doctor-for-routine-checkup-within-the-past-year-among-adults-aged-18-years">
 <h2>Visits to doctor for routine checkup within the past year among adults aged &gt;=18 years<a class="headerlink" href="#visits-to-doctor-for-routine-checkup-within-the-past-year-among-adults-aged-18-years" title="Permalink to this heading"></a></h2>
@@ -1629,6 +1782,8 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Respondents aged ≥18 years who report having been to a doctor for a routine checkup (e.g., a general
+physical exam, not an exam for a specific injury, illness, condition) in the previous year.</p>
 </section>
 <section id="area">
 <h2>Area<a class="headerlink" href="#area" title="Permalink to this heading"></a></h2>
@@ -1645,6 +1800,7 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>Area data contains the tracts for Austin City limits. Provided by the demographer’s office.</p>
 </section>
 <section id="year">
 <h2>year<a class="headerlink" href="#year" title="Permalink to this heading"></a></h2>
@@ -1661,6 +1817,7 @@ as part of the rental payment. See Contract rent for related terms.</p>
 </tr>
 </tbody>
 </table>
+<p>The year the data represents (Given with the Prosperity Dataset build tool).</p>
 </section>
 </section>
 
